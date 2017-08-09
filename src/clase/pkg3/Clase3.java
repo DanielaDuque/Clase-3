@@ -11,7 +11,13 @@ import java.util.*;
  * @version 1
  * @since 9 de agosto del 2017 
  */
-
+/**   funcion calcular salario:
+ * calcua el salario total de la funcion
+ * @param horas: es el numero de horas que trabajo.
+ * @param valor: es el valor de la hora de trabajo C/U
+ * @return devuelve el valor total del salario segun las siguientes especificaciones: Cuando las horas de trabajo exceden de 40, el resto se considera horas extras y se pagan al doble de una hora normal, cuando no exceden de 8; si las horas extras exceden de 8, se pagan las primeras 8 al doble de lo que se paga una hora normal y el resto al triple.
+ * 
+ */
 
 public class Clase3 {
 public static double calcularsalario (int horas, double valor){
